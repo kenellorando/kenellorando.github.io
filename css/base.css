@@ -6,8 +6,8 @@ html, body {
 }
 
 html {
-    background-color: rgb(12, 14, 15);
-    color: whitesmoke;
+    background-color: rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
     font-family: 'Inter', sans-serif;
     font-size: 19px;
     line-height: 150%;
@@ -28,13 +28,13 @@ hr {
 }
 
 a {
-    color: rgb(73, 245, 216);
+    color: rgb(0, 151, 58);
     text-decoration: none;
 }
 
 img#profile {
     max-width: 220px;
-    /*border-radius: 50%;*/
+    border-radius: 50%;
     text-align: center;
     margin-top: 30px;
 }
@@ -61,5 +61,16 @@ b {
         margin-right: auto;
         padding-top: 50px;
         padding-bottom: 100px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: rgb(27, 29, 34);
+        color:  rgb(221, 221, 221);
+    }
+    a {
+        color: rgb(90, 173, 240);
+        text-decoration: none;
     }
 }
